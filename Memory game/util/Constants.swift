@@ -3,7 +3,6 @@ import Foundation
 
 class Constants{
     
-    
     //game variables
     static let moves = "moves"
     static let rows = "rows"

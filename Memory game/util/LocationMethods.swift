@@ -12,7 +12,7 @@ class LocationMethods{
     }
     
     func askLocationPermission(){
-   
+        print("ask location")
         if (CLLocationManager.locationServicesEnabled()) {
             locationManager.requestLocation()
         }

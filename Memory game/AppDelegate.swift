@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  Memory game
-//
-//  Created by Yarden Barak on 14/05/2021.
-//
 
 import UIKit
 import GoogleMaps
