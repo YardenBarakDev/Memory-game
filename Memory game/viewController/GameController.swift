@@ -182,7 +182,8 @@
         else if(previousIndex != indexPath.row && choiceNumber == 1){
             
             secondChoice = game_collectionView.cellForItem(at: indexPath) as? MyCollectionViewCell
-            //only if the card is wasn't reaveld previusly
+            
+            //only if the card wasn't revealed previously
             if(secondChoice.imageView.image == UIImage(named: "card")){
                 choiceNumber += 1
                 secondChoice.setImage(with: UIImage(named: dataSource[indexPath.row])!)
